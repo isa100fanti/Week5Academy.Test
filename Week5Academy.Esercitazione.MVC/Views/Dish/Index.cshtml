@@ -18,6 +18,8 @@
             <td>@item.TypeCourse</td>
             <td>@item.Price</td>
             <td>@Html.ActionLink("Details","Details", new { id = @item.Id })
+            <td>@Html.ActionLink("Edit","Edit", new { id = @item.Id })
+            <td>@Html.ActionLink("Delete","Delete", new { id = @item.Id })
             @Html.ActionLink("Create","Create", new { id = item.Id })</td>
         </tr>
         }

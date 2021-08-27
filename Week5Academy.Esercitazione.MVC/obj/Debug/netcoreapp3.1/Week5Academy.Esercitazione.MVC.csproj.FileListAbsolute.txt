@@ -88,3 +88,5 @@ C:\Users\isabella.centofanti\source\repos\ACADEMY\Week5Academy.Esercitazione.Ris
 C:\Users\isabella.centofanti\source\repos\ACADEMY\Week5Academy.Esercitazione.RistoranteMVC\Week5Academy.Esercitazione.MVC\bin\Debug\netcoreapp3.1\Week5Academy.Esercitazione.EF.dll
 C:\Users\isabella.centofanti\source\repos\ACADEMY\Week5Academy.Esercitazione.RistoranteMVC\Week5Academy.Esercitazione.MVC\bin\Debug\netcoreapp3.1\Week5Academy.Esercitazione.EF.pdb
 C:\Users\isabella.centofanti\source\repos\ACADEMY\Week5Academy.Esercitazione.RistoranteMVC\Week5Academy.Esercitazione.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Dish\Create.cshtml.g.cs
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week5Academy.Esercitazione.RistoranteMVC\Week5Academy.Esercitazione.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Dish\Delete.cshtml.g.cs
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week5Academy.Esercitazione.RistoranteMVC\Week5Academy.Esercitazione.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Dish\Edit.cshtml.g.cs

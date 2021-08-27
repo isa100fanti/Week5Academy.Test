@@ -107,7 +107,13 @@ namespace Week5Academy.Esercitazione.EF.Migrations
                             Name = " hamburger",
                             Price = 10.300000000000001,
                             TypeCourse = 1
-                        });
+                        },
+                              new { Id = 3, Name = " patatine fritte", Description = "patatine con salse", Price = 4.3, TypeCourse = 1 },
+                        new { Id = 4, Name = " lasagne al forno", Description = "lasagne al ragu", Price = 8, TypeCourse = 0 },
+                new { Id = 5, Name = " Tiramisu", Description = "tiramisu al caffe della casa", Price = 5.2, TypeCourse = 3 },
+                new { Id = 6, Name = " hamburger con bacon", Description = "hamburger con cheddar bacon e insalata", Price = 12.3, TypeCourse = 1 }
+
+);
                 });
 #pragma warning restore 612, 618
         }
