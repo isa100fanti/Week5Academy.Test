@@ -36,6 +36,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.5",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.5",
           "Week5Academy.Esercitazione.Core": "1.0.0",
+          "Week5Academy.Esercitazione.EF": "1.0.0",
           "Week5Academy.Esercitazione.Mock": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
@@ -1405,6 +1406,19 @@
         },
         "compile": {
           "Week5Academy.Esercitazione.Core.dll": {}
+        }
+      },
+      "Week5Academy.Esercitazione.EF/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.5",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.5",
+          "Week5Academy.Esercitazione.Core": "1.0.0"
+        },
+        "runtime": {
+          "Week5Academy.Esercitazione.EF.dll": {}
+        },
+        "compile": {
+          "Week5Academy.Esercitazione.EF.dll": {}
         }
       },
       "Week5Academy.Esercitazione.Mock/1.0.0": {
@@ -3726,6 +3740,11 @@
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
     "Week5Academy.Esercitazione.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Week5Academy.Esercitazione.EF/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

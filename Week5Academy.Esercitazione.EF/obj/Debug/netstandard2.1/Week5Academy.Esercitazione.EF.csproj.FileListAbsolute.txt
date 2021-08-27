@@ -1,0 +1,12 @@
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week5Academy.Esercitazione.RistoranteMVC\Week5Academy.Esercitazione.EF\bin\Debug\netstandard2.1\Week5Academy.Esercitazione.EF.deps.json
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week5Academy.Esercitazione.RistoranteMVC\Week5Academy.Esercitazione.EF\bin\Debug\netstandard2.1\Week5Academy.Esercitazione.EF.dll
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week5Academy.Esercitazione.RistoranteMVC\Week5Academy.Esercitazione.EF\bin\Debug\netstandard2.1\Week5Academy.Esercitazione.EF.pdb
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week5Academy.Esercitazione.RistoranteMVC\Week5Academy.Esercitazione.EF\bin\Debug\netstandard2.1\Week5Academy.Esercitazione.Core.dll
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week5Academy.Esercitazione.RistoranteMVC\Week5Academy.Esercitazione.EF\bin\Debug\netstandard2.1\Week5Academy.Esercitazione.Core.pdb
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week5Academy.Esercitazione.RistoranteMVC\Week5Academy.Esercitazione.EF\obj\Debug\netstandard2.1\Week5Academy.Esercitazione.EF.csprojAssemblyReference.cache
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week5Academy.Esercitazione.RistoranteMVC\Week5Academy.Esercitazione.EF\obj\Debug\netstandard2.1\Week5Academy.Esercitazione.EF.AssemblyInfoInputs.cache
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week5Academy.Esercitazione.RistoranteMVC\Week5Academy.Esercitazione.EF\obj\Debug\netstandard2.1\Week5Academy.Esercitazione.EF.AssemblyInfo.cs
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week5Academy.Esercitazione.RistoranteMVC\Week5Academy.Esercitazione.EF\obj\Debug\netstandard2.1\Week5Academy.Esercitazione.EF.csproj.CoreCompileInputs.cache
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week5Academy.Esercitazione.RistoranteMVC\Week5Academy.Esercitazione.EF\obj\Debug\netstandard2.1\Week5Academy.Esercitazione.EF.csproj.CopyComplete
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week5Academy.Esercitazione.RistoranteMVC\Week5Academy.Esercitazione.EF\obj\Debug\netstandard2.1\Week5Academy.Esercitazione.EF.dll
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week5Academy.Esercitazione.RistoranteMVC\Week5Academy.Esercitazione.EF\obj\Debug\netstandard2.1\Week5Academy.Esercitazione.EF.pdb

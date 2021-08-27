@@ -17,6 +17,25 @@ namespace Week5Academy.Esercitazione.EF
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Dish>().ToTable("Dish");
+            modelBuilder.Entity<Dish>().HasKey(k => k.Id);
+            modelBuilder.Entity<Dish>().Property(a => a.Name).IsRequired().HasMaxLength(20);
+            modelBuilder.Entity<Dish>().Property(d => d.Description).IsRequired().HasMaxLength(50);
+            modelBuilder.Entity<Dish>().Property(p => p.Price).IsRequired();
+            modelBuilder.Entity<Dish>().Property(t => t.TypeCourse).IsRequired();
+            modelBuilder.Entity<Dish>().HasData(
+                new Dish { Id = 1, Name = "pasta al sugo", Description = "pasta al pomodoro con basilico", Price = 8, TypeCourse = TypeCourse.MainCourse },
+                new Dish { Id = 2, Name = " hamburger", Description = "hamburger con cheddar e insalata", Price = 10.3, TypeCourse = TypeCourse.SecondCourse }
+                );
+
+            modelBuilder.Entity<Account>().ToTable("Account");
+            modelBuilder.Entity<Account>().HasKey(k => k.Id);
+            modelBuilder.Entity<Account>().Property(u => u.Username).IsRequired().HasMaxLength(20);
+            modelBuilder.Entity<Account>().Property(p => p.Password).IsRequired().HasMaxLength(10);
+            modelBuilder.Entity<Account>().Property(a => a.Role).IsRequired();
+            modelBuilder.Entity<Account>().HasData(
+                new Account { Id = 1, Username = "ginos@venice.it", Password = "1234", Role = Role.Owner },
+                new Account { Id = 2, Username = "isacento@vabc.it", Password = "5678", Role = Role.Client }
+                );
         }
 
     }

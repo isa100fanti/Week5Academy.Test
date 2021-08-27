@@ -9,10 +9,17 @@ namespace Week5Academy.Esercitazione.MVC.Models
 {
     public enum TypeCourse
     {
+        [Display(Name = "MainCourse")]
         MainCourse,
+        [Display(Name = "SecondCourse")]
         SecondCourse,
-        Dessert,
-        Sides
+        [Display(Name = "Sides")]
+        Sides,
+        [Display(Name = "Dessert")]
+        Dessert
+
+
+
     }
     public class DishViewModel
     {
@@ -22,6 +29,7 @@ namespace Week5Academy.Esercitazione.MVC.Models
         [Required, DisplayName("Description"), StringLength(50, MinimumLength = 10)]
 
         public string Description { get; set; }
+
         public TypeCourse TypeCourse { get; set; }
         [Required, DisplayName("Price")]
 

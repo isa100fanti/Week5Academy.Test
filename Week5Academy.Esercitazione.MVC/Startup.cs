@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -12,6 +13,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Week5Academy.Esercitazione.Core.BusinessLayer;
 using Week5Academy.Esercitazione.Core.Interfaces;
+using Week5Academy.Esercitazione.EF;
 using Week5Academy.Esercitazione.EF.Repositories;
 using Week5Academy.Esercitazione.Mock;
 using Week5Academy.Esercitazione.Mock.Repositories;
@@ -55,6 +57,10 @@ namespace Week5Academy.Esercitazione.MVC
                     options.LoginPath = new PathString("/Account/Login");
                     options.AccessDeniedPath = new PathString("/Account/Forbidden");
                 });
+
+            services.AddDbContext<DishContext>(
+                options => options.UseSqlServer(Configuration.GetConnectionString("DishesDB"))
+                );
 
 
             services.AddControllersWithViews();

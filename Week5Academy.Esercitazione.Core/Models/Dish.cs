@@ -6,8 +6,8 @@ namespace Week5Academy.Esercitazione.Core.Models
     {
         MainCourse,
         SecondCourse,
-        Dessert,
-        Sides
+        Sides,
+        Dessert
     }
     public class Dish
 

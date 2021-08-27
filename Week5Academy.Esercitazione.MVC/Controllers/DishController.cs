@@ -26,14 +26,14 @@ namespace Week5Academy.Esercitazione.MVC.Controllers
             return View(model);
         }
 
-        [Authorize(Policy = "Owner")]
+        [Authorize(Policy = "AccountOwner")]
         public IActionResult Create()
         {
             
             return View();
         }
 
-        [Authorize(Policy = "Owner")]
+        [Authorize(Policy = "AccountOwner")]
         [HttpPost]
         public IActionResult Create(DishViewModel data)
         {
@@ -65,7 +65,77 @@ namespace Week5Academy.Esercitazione.MVC.Controllers
             return View(result);
         }
 
+        [Authorize(Policy = "AccountOwner")]
+        public IActionResult Edit(int id)
+        {
+            if (id <= 0)
+            {
+                return View("Error", new ErrorViewModel());
+            }
 
+            //recupero l'impiegato da modificare
+            var model = bl.GetDishById(id);
+            
+            var dishViewModel = new DishViewModel
+            {
+                
+                Name = model.Name,
+                Description = model.Description,
+                Price = model.Price,
+                //TypeCourse = TypeCourse
+            };
+            return View(dishViewModel);
+        }
+
+        [HttpPost]
+        public IActionResult Edit(DishViewModel data)
+        {
+            if (data == null)
+            {
+                return View("Error", new ErrorViewModel());
+            }
+            if (ModelState.IsValid)
+            {
+                var result = bl.EditDish(new Dish
+                {
+                    Name = data.Name,
+                    Description = data.Description,
+                    Price = data.Price,
+                    //TypeCourse = TypeCourse
+                }
+                );
+                if (result.Success)
+                {
+                    return RedirectToAction("Index");
+                }
+            }
+
+            return View();
+        }
+
+        [Authorize(Policy = "AccountOwner")]
+        public IActionResult Delete(int id)
+        {
+            //... GUARDIA SULL'ID
+            var model = bl.GetDishById(id);
+            //guardia sul model
+            return View(model);
+        }
+
+        [Authorize(Policy = "AccountOwner")]
+        [HttpPost]
+        public IActionResult Delete(Dish data)
+        {
+            var dishToDelete = bl.GetDishById(data.Id);
+
+            var result = bl.DeleteDish(dishToDelete);
+            if (result.Success)
+            {
+                return RedirectToAction("Index");
+            }
+
+            return View();
+        }
 
     }
 }

@@ -29,7 +29,14 @@ namespace Week5Academy.Esercitazione.EF.Repositories
 
         public bool DeleteItem(int id)
         {
-            throw new NotImplementedException();
+            if (id <= 0)
+            {
+                throw new ArgumentNullException("invalid item");
+            }
+            var itemtoDelete = ctx.Dishes.FirstOrDefault(a => a.Id == id);
+            ctx.Dishes.Remove(itemtoDelete);
+            ctx.SaveChanges();
+            return true;
         }
 
         public bool EditItem(Dish item)
@@ -51,7 +58,11 @@ namespace Week5Academy.Esercitazione.EF.Repositories
 
         public Dish GetById(int id)
         {
-            throw new NotImplementedException();
+            if(id <= 0)
+            {
+                throw new ArgumentException("invalid id");
+            }
+            return ctx.Dishes.FirstOrDefault(e => e.Id == id);
         }
     }
 }
