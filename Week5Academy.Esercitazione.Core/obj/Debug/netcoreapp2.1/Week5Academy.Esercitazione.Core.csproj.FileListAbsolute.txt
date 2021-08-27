@@ -1,0 +1,9 @@
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week5Academy.Esercitazione.RistoranteMVC\Week5Academy.Esercitazione.Core\bin\Debug\netcoreapp2.1\Week5Academy.Esercitazione.Core.deps.json
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week5Academy.Esercitazione.RistoranteMVC\Week5Academy.Esercitazione.Core\bin\Debug\netcoreapp2.1\Week5Academy.Esercitazione.Core.dll
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week5Academy.Esercitazione.RistoranteMVC\Week5Academy.Esercitazione.Core\bin\Debug\netcoreapp2.1\Week5Academy.Esercitazione.Core.pdb
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week5Academy.Esercitazione.RistoranteMVC\Week5Academy.Esercitazione.Core\obj\Debug\netcoreapp2.1\Week5Academy.Esercitazione.Core.csprojAssemblyReference.cache
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week5Academy.Esercitazione.RistoranteMVC\Week5Academy.Esercitazione.Core\obj\Debug\netcoreapp2.1\Week5Academy.Esercitazione.Core.AssemblyInfoInputs.cache
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week5Academy.Esercitazione.RistoranteMVC\Week5Academy.Esercitazione.Core\obj\Debug\netcoreapp2.1\Week5Academy.Esercitazione.Core.AssemblyInfo.cs
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week5Academy.Esercitazione.RistoranteMVC\Week5Academy.Esercitazione.Core\obj\Debug\netcoreapp2.1\Week5Academy.Esercitazione.Core.csproj.CoreCompileInputs.cache
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week5Academy.Esercitazione.RistoranteMVC\Week5Academy.Esercitazione.Core\obj\Debug\netcoreapp2.1\Week5Academy.Esercitazione.Core.dll
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week5Academy.Esercitazione.RistoranteMVC\Week5Academy.Esercitazione.Core\obj\Debug\netcoreapp2.1\Week5Academy.Esercitazione.Core.pdb

@@ -1,0 +1,36 @@
+﻿
+
+@{ ViewData["Title"] = "Details";}
+
+<h1> Details Dish Selected</h1>
+
+
+<div>
+    <h3>Dish #@Model.Id</h3>
+    <dl class="row">
+        <dt class="col-sm-3">
+            Course Name
+        </dt>
+        <dt class="col-sm-3">
+            @Model.Name
+        </dt>
+        <dt class="col-sm-3">
+            Description
+        </dt>
+        <dt class="col-sm-3">
+            @Model.Description
+        </dt>
+        <dt class="col-sm-3">
+            Type courses
+        </dt>
+        <dt class="col-sm-3">
+            @Model.TypeCourse
+        </dt>
+        <dt class="col-sm-3">
+            Price
+        </dt>
+        <dt class="col-sm-3">
+            @Model.Price
+        </dt>
+    </dl>
+</div>

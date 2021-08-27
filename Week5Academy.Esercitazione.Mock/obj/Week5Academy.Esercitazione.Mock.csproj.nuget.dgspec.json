@@ -1,0 +1,120 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\isabella.centofanti\\source\\repos\\ACADEMY\\Week5Academy.Esercitazione.RistoranteMVC\\Week5Academy.Esercitazione.Mock\\Week5Academy.Esercitazione.Mock.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\isabella.centofanti\\source\\repos\\ACADEMY\\Week5Academy.Esercitazione.RistoranteMVC\\Week5Academy.Esercitazione.Core\\Week5Academy.Esercitazione.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\isabella.centofanti\\source\\repos\\ACADEMY\\Week5Academy.Esercitazione.RistoranteMVC\\Week5Academy.Esercitazione.Core\\Week5Academy.Esercitazione.Core.csproj",
+        "projectName": "Week5Academy.Esercitazione.Core",
+        "projectPath": "C:\\Users\\isabella.centofanti\\source\\repos\\ACADEMY\\Week5Academy.Esercitazione.RistoranteMVC\\Week5Academy.Esercitazione.Core\\Week5Academy.Esercitazione.Core.csproj",
+        "packagesPath": "C:\\Users\\isabella.centofanti\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\isabella.centofanti\\source\\repos\\ACADEMY\\Week5Academy.Esercitazione.RistoranteMVC\\Week5Academy.Esercitazione.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\isabella.centofanti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\isabella.centofanti\\source\\repos\\ACADEMY\\Week5Academy.Esercitazione.RistoranteMVC\\Week5Academy.Esercitazione.Mock\\Week5Academy.Esercitazione.Mock.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\isabella.centofanti\\source\\repos\\ACADEMY\\Week5Academy.Esercitazione.RistoranteMVC\\Week5Academy.Esercitazione.Mock\\Week5Academy.Esercitazione.Mock.csproj",
+        "projectName": "Week5Academy.Esercitazione.Mock",
+        "projectPath": "C:\\Users\\isabella.centofanti\\source\\repos\\ACADEMY\\Week5Academy.Esercitazione.RistoranteMVC\\Week5Academy.Esercitazione.Mock\\Week5Academy.Esercitazione.Mock.csproj",
+        "packagesPath": "C:\\Users\\isabella.centofanti\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\isabella.centofanti\\source\\repos\\ACADEMY\\Week5Academy.Esercitazione.RistoranteMVC\\Week5Academy.Esercitazione.Mock\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\isabella.centofanti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\isabella.centofanti\\source\\repos\\ACADEMY\\Week5Academy.Esercitazione.RistoranteMVC\\Week5Academy.Esercitazione.Core\\Week5Academy.Esercitazione.Core.csproj": {
+                "projectPath": "C:\\Users\\isabella.centofanti\\source\\repos\\ACADEMY\\Week5Academy.Esercitazione.RistoranteMVC\\Week5Academy.Esercitazione.Core\\Week5Academy.Esercitazione.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

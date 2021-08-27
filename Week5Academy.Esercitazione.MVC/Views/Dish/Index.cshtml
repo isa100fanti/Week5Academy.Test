@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Dish>
+
+<table class="table" border="1">
+    <thead >
+        <tr > Name</tr> 
+        <tr> Description</tr>
+        <tr> Type</tr>
+        <tr> Price</tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.Description</td>
+            <td>@item.TypeCourse</td>
+            <td>@item.Price</td>
+            <td>@Html.ActionLink("Details","Details", new { id = @item.Id })
+            @Html.ActionLink("Create","Create", new { id = item.Id })</td>
+        </tr>
+        }
+    </tbody>
+</table >
+

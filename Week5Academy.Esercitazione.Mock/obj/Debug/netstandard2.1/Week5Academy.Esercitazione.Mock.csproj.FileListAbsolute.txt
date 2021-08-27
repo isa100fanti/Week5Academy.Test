@@ -1,0 +1,12 @@
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week5Academy.Esercitazione.RistoranteMVC\Week5Academy.Esercitazione.Mock\bin\Debug\netstandard2.1\Week5Academy.Esercitazione.Mock.deps.json
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week5Academy.Esercitazione.RistoranteMVC\Week5Academy.Esercitazione.Mock\bin\Debug\netstandard2.1\Week5Academy.Esercitazione.Mock.dll
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week5Academy.Esercitazione.RistoranteMVC\Week5Academy.Esercitazione.Mock\bin\Debug\netstandard2.1\Week5Academy.Esercitazione.Mock.pdb
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week5Academy.Esercitazione.RistoranteMVC\Week5Academy.Esercitazione.Mock\bin\Debug\netstandard2.1\Week5Academy.Esercitazione.Core.dll
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week5Academy.Esercitazione.RistoranteMVC\Week5Academy.Esercitazione.Mock\bin\Debug\netstandard2.1\Week5Academy.Esercitazione.Core.pdb
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week5Academy.Esercitazione.RistoranteMVC\Week5Academy.Esercitazione.Mock\obj\Debug\netstandard2.1\Week5Academy.Esercitazione.Mock.csprojAssemblyReference.cache
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week5Academy.Esercitazione.RistoranteMVC\Week5Academy.Esercitazione.Mock\obj\Debug\netstandard2.1\Week5Academy.Esercitazione.Mock.AssemblyInfoInputs.cache
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week5Academy.Esercitazione.RistoranteMVC\Week5Academy.Esercitazione.Mock\obj\Debug\netstandard2.1\Week5Academy.Esercitazione.Mock.AssemblyInfo.cs
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week5Academy.Esercitazione.RistoranteMVC\Week5Academy.Esercitazione.Mock\obj\Debug\netstandard2.1\Week5Academy.Esercitazione.Mock.csproj.CoreCompileInputs.cache
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week5Academy.Esercitazione.RistoranteMVC\Week5Academy.Esercitazione.Mock\obj\Debug\netstandard2.1\Week5Academy.Esercitazione.Mock.csproj.CopyComplete
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week5Academy.Esercitazione.RistoranteMVC\Week5Academy.Esercitazione.Mock\obj\Debug\netstandard2.1\Week5Academy.Esercitazione.Mock.dll
+C:\Users\isabella.centofanti\source\repos\ACADEMY\Week5Academy.Esercitazione.RistoranteMVC\Week5Academy.Esercitazione.Mock\obj\Debug\netstandard2.1\Week5Academy.Esercitazione.Mock.pdb

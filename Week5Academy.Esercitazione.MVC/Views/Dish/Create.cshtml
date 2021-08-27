@@ -1,0 +1,41 @@
+﻿@model DishViewModel
+@{ ViewData["Title"] = "Create";}
+
+<form asp-action="Create">
+
+
+    <div class="col-sm-3">
+
+        <label asp-for="Name"></label>
+        <input asp-for="Name" />
+        <span asp-validation-for="Name"></span>
+    </div>
+    <div class="col-sm-3">
+
+        <label asp-for="Description"></label>
+        <input asp-for="Description" />
+        <span asp-validation-for="Description"></span>
+    </div>
+    <div class="col-sm-3">
+        <label asp-for="Price"></label>
+        <input asp-for="Price" />
+        <span asp-validation-for="Price"></span>
+    </div>
+
+    <div class="col-sm-3">
+        <label asp-for="TypeCourse"></label>
+        <!--<select asp-items="Html.GetEnumSelectList<TypeCourse>()"></select>-->
+        <span asp-validation-for="TypeCourse"></span>
+    </div>
+
+
+    <div>
+        <input type="submit" value="Create" class="btn btn-primary" />
+    </div>
+
+</form>
+
+
+<div>
+    <a asp-action="Index"> Back to List</a>
+</div>

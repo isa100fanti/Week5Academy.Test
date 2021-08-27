@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "Week5Academy.Esercitazione.Core/1.0.0": {
+        "runtime": {
+          "Week5Academy.Esercitazione.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Week5Academy.Esercitazione.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
